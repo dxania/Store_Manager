@@ -7,12 +7,9 @@
         <link href="../../assets/styles/store_admin.css" rel ="stylesheet">
         <link href="../../assets/images/icon.png" rel="icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- <script src="../scripts/allentries.js"></script> -->
     </head>
 
     <body>
-    
-
         <div class="topnav">
             <div class="topnav-right">
                 <a href="../../index.html">LogOut <i class="fa fa-power-off"></i></a>
@@ -24,36 +21,33 @@
                 <a href="view_attendants.html"><i class="fa fa-fw fa-navicon"></i>Attendants</a>
                 <a href="view_sales.html"><i class="fa fa-fw fa-shopping-bag"></i> Sales</a>
                 <a href="view_products.html"><i class="fa fa-fw fa-product-hunt"></i> Products</a>
+                <a href="add_product.html"><i class="fa fa-fw fa-edit"></i> Add Product</a>
                 <!-- <a href="#setting"><i class="fa fa-fw fa-gear"></i> Settings</a> -->
                 <a href="../../index.html"><i class="fa fa-power-off"></i> Logout</a>
-
                 <div id="footer">
                         <h4>Store Manager &copy; 2018</h4> 
-                    </div>
+                </div>
         </div>
               
-              <div class="main">
-                <div class="fcontainer">
-                
-                        <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Products" style="width: 20%; margin-left: 100px; border-radius: 10px; padding: 5px;"> -->
-                        
-                        
-                        
-                        <button class="tablink" onclick="openPage('tb', this, 'green')" id="defaultOpen">Tea & Beverages</button>
-                        <button class="tablink" onclick="openPage('kw', this, 'green')" >Kitchen Ware</button>
-                        <button class="tablink" onclick="openPage('ele', this, 'green')">Electronics</button>
-                        <button class="tablink" onclick="openPage('fs', this, 'green')">Food Stuffs</button>
-                        <button class="tablink" onclick="openPage('toi', this, 'green')">Toiletries</button>
-                        <button class="tablink" onclick="openPage('hs', this, 'green')" >Household Supplies</button>
-                        <button class="tablink" onclick="openPage('s', this, 'green')">Stationery</button>
-                        <button class="tablink" onclick="openPage('bp', this, 'green')">Baby Products</button>
-                        
-                        <div id="tb" class="tabcontent">
-                            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Products" style="width: 20%; margin-left: 100px; border-radius: 10px; padding: 5px;">
+        <div class="main">
+            <div class="fcontainer">
+                <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Products" style="width: 20%; margin-left: 100px; border-radius: 10px; padding: 5px;"> -->
 
-                          <ul class="product_gallery">
-                              <li>
-                                  <img src="../../assets/images/products/tea.png">
+                <button class="tablink" onclick="openPage('tb', this, 'green')" id="defaultOpen">Tea & Beverages</button>
+                <button class="tablink" onclick="openPage('kw', this, 'green')" >Kitchen Ware</button>
+                <button class="tablink" onclick="openPage('ele', this, 'green')">Electronics</button>
+                <button class="tablink" onclick="openPage('fs', this, 'green')">Food Stuffs</button>
+                <button class="tablink" onclick="openPage('toi', this, 'green')">Toiletries</button>
+                <button class="tablink" onclick="openPage('hs', this, 'green')" >Household Supplies</button>
+                <button class="tablink" onclick="openPage('s', this, 'green')">Stationery</button>
+                <button class="tablink" onclick="openPage('bp', this, 'green')">Baby Products</button>
+                        
+                <div id="tb" class="tabcontent">
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Products" style="width: 20%; margin-left: 100px; border-radius: 10px; padding: 5px;">
+
+                        <ul class="product_gallery">
+                            <li>
+                                <img src="../../assets/images/products/tea.png">
                                   <div class="product_info">
                                       <h4>Ahmad Tea English Breakfast</h4>
                                       <hr>
@@ -61,10 +55,8 @@
                                         <span>UGX 5,500</span>
                                             <p>Stock: 50</p>
                                       </div>
-                                      
                                       <a href="#" class="buy">Edit</a>
                                   </div>
-                                  
                               </li>
                               <li>
                                     <img src="../../assets/images/products/tea2.png">
@@ -81,33 +73,29 @@
                                     
                                 </li>
                                 <li>
-                                        <img src="../../assets/images/products/tea3.png">
-                                        <div class="product_info">
-                                            <h4>Nature's Guru Organic Masala Chai</h4>
-                                            <hr>
-                                            <div class="product_details">
-                                              <span>UGX 10,500</span>
-                                                  <p>Stock: 19</p>
-                                            </div>
-                                            
+                                    <img src="../../assets/images/products/tea3.png">
+                                    <div class="product_info">
+                                        <h4>Nature's Guru Organic Masala Chai</h4>
+                                        <hr>
+                                        <div class="product_details">
+                                            <span>UGX 10,500</span>
+                                            <p>Stock: 19</p>
+                                        </div>
                                             <a href="#" class="buy">Edit</a>
                                         </div>
-                                        
                                     </li>
-                                        <li>
-                                                <img src="../../assets/images/products/fanta.png">
-                                                <div class="product_info">
-                                                    <h4>Fanta 1.5 L</h4>
-                                                    <hr>
-                                                    <div class="product_details">
-                                                      <span>UGX 4,500</span>
-                                                          <p>Stock: 500</p>
-                                                    </div>
-                                                    
-                                                    <a href="#" class="buy">Edit</a>
-                                                </div>
-                                                
-                                            </li>
+                                    <li>
+                                        <img src="../../assets/images/products/fanta.png">
+                                        <div class="product_info">
+                                            <h4>Fanta 1.5 L</h4>
+                                            <hr>
+                                            <div class="product_details">
+                                                <span>UGX 4,500</span>
+                                                <p>Stock: 500</p>
+                                            </div>
+                                                <a href="#" class="buy">Edit</a>
+                                        </div>
+                                    </li>
                                             <li>
                                                     <img src="../../assets/images/products/tea4.png">
                                                     <div class="product_info">
